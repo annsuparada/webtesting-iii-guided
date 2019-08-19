@@ -12,3 +12,10 @@ describe('<App />', () => {
     expect(tree.toJSON()).toMatchSnapshot();
   });
 });
+
+
+describe('asyncFunc', () => {
+  it('eventually resolves to success', () => {
+
+  })
+})

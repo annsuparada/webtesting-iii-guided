@@ -3,6 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  asyncFunc = () => {
+    setTimeout((resolve) => {
+      resolve('Success!')
+    }, 1000);
+  }
   render() {
     return (
       <div className="App">
